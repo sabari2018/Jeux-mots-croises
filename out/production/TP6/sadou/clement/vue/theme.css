@@ -1,0 +1,20 @@
+.background{
+    -fx-background-color: #acdeff;
+    /*-fx-background-image:url('img/background1.jpg');*/
+    -fx-background-repeat: stretch;
+    -fx-font-size: 100%;
+}
+
+.case-solution-ok{
+    -fx-background-color: #c3ffa2;
+}
+
+.case-courante:focused{
+    -fx-faint-focus-color:  rgba(32, 17, 255, 0.61);
+    -fx-focus-color: rgba(32, 17, 255, 0.61);
+}
+
+.label-taux{
+    -fx-text-fill: white;
+    -fx-font-size: 100%;
+}
